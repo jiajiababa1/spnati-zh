@@ -1,0 +1,78 @@
+name: Build and deploy SPNATI zh to Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout overlay (patches, zh translation, cheat, gallery)
+        uses: actions/checkout@v4
+
+      - name: Download official offline bundles
+        run: |
+          mkdir -p /tmp/bundles site
+          cd /tmp/bundles
+          curl -sL "https://spnati.net/bundles/dl/manifest.json" -o manifest.json
+          python3 -c "
+          import json
+          for m in json.load(open('manifest.json')):
+              print(m['name'])
+          " > names.txt
+          cat names.txt
+          while read -r name; do
+            echo \"Downloading $name\"
+            curl -L --retry 3 -o \"$name\" \"https://spnati.net/bundles/dl/$name\"
+          done < names.txt
+
+      - name: Extract and merge all bundles
+        run: |
+          for z in /tmp/bundles/*.zip; do
+            unzip -o -q \"$z\" -d site
+          done
+          echo \"Extracted files:\"
+          find site -type f | wc -l
+
+      - name: Slim down (images stream from spnati.net; editor-only data dropped)
+        run: |
+          cd site
+          rm -rf tools attachments opponents/reskins start_offline.exe
+          find opponents -type f \( -iname '*.png' -o -iname '*.jpg' -o -iname '*.jpeg' -o -iname '*.gif' -o -iname '*.webp' -o -iname '*.xcf' -o -iname '*.sai' -o -iname '*.pdn' -o -iname '*.psd' -o -iname '*.zip' \) -delete
+          find opponents -name 'poses.xml' -delete
+          find opponents -name 'editor.xml' -delete
+          du -sh .
+          find . -type f | wc -l
+
+      - name: Apply overlay (zh translation, cheat toggle, gallery, patched JS)
+        run: |
+          cp -r overlay/js/. site/js/
+          cp -r overlay/languages site/languages
+          cp overlay/index.html overlay/config.xml overlay/gallery.html overlay/.nojekyll site/
+          ls site/languages
+          grep -c 'zhCheat' site/index.html
+          grep -c 'spnati.net/opponents' site/js/player.js
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to Pages
+        uses: actions/deploy-pages@v4
