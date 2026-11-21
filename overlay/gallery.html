@@ -126,6 +126,7 @@ function renderExtra(c) {
     if (e.poses) {
       const stages = Object.keys(e.poses).sort((a, b) => a - b);
       const total = stages.reduce((n, st) => n + e.poses[st].length, 0);
+      const pc = document.getElementById('dPosesCount'); if (pc) pc.textContent = total;
       pbox.innerHTML = `<div class="loadingNote">共 ${total} 张姿势图，按脱衣阶段分组（阶段 0 = 穿齐，数字越大脱得越多）</div>` + stages.map(st =>
         `<div class="stageTitle">阶段 ${st}（${e.poses[st].length} 张）</div><div class="poseGrid">` +
         e.poses[st].map(fn => `<figure><img loading="lazy" src="https://spnati.net/opponents/${c.id}/${fn}" alt="${fn}"><figcaption>${fn.replace(/^\d+-/, "").replace(/\.[a-z]+$/i, "")}</figcaption></figure>`).join("") +
@@ -138,9 +139,9 @@ function show(c) {
   document.getElementById('dLabel').textContent = c.label + (c.name && c.name !== c.label ? "（" + c.name + "）" : "");
   document.getElementById('dMeta').innerHTML =
     "出处：" + (c.from || "—") + "<br>性别：" + (c.gender === "female" ? "女" : c.gender === "male" ? "男" : c.gender) +
-    " · 阵容：" + (statusZh[c.status] || c.status) + "<br>衣物层数：" + c.layers + " · 专属台词：" + c.lines + " 条 · 姿势：" + c.poses +
+    " · 阵容：" + (statusZh[c.status] || c.status) + "<br>衣物层数：" + c.layers + " · 专属台词：" + c.lines + " 条 · 姿势：" + "<span id=\"dPosesCount\">" + c.poses + "</span>" +
     "<br>编剧：" + (c.writer || "—") + "<br>画师：" + (c.artist || "—");
-  document.getElementById('dDesc').textContent = c.desc || "";
+  document.getElementById('dDesc').innerHTML = c.desc || "";
   document.getElementById('detail').style.display = "block";
   renderExtra(c);
 }
