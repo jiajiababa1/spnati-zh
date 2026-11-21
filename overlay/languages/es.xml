@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Spanish translation -->
+<strings>
+    <!-- TITLE SCREEN -->
+    <!-- This game contains material that is only suitable for adults. --> <!-- machine translation for human verification -->
+    <string key="title-screen-for-adults">Este juego contiene contenido apto únicamente para adultos.</string>
+    <!-- If you are under the age of 18, please leave now. --> <!-- machine translation for human verification -->
+    <string key="title-screen-eighteen-plus">Si eres menor de 18 años, abandona este sitio ahora.</string>
+    <!-- Strip Poker Night at the Inventory --> <!-- machine translation for human verification -->
+    <string key="strip-poker-night-at-the-inventory">Noche de póker de prendas en el Inventario</string>
+    <!-- is a free, open source, and community-run project. All characters represented within are 18+ and the property of their original owners. --> <!-- machine translation for human verification -->
+    <string key="title-screen-open-source">es un proyecto gratuito, de código abierto y gestionado por la comunidad. Todos los personajes que aparecen en él tienen al menos 18 años y pertenecen a sus respectivos titulares de derechos.</string>
+    <!-- The latest version of the game can be played at --> <!-- machine translation for human verification -->
+    <string key="title-screen-latest-version">Puedes jugar a la versión más reciente del juego en</string>
+    <!-- Make sure to check out our list of --> <!-- machine translation for human verification -->
+    <string key="title-screen-faq">No olvides consultar nuestra lista de</string>
+    <!-- Frequently-Asked Questions --> <!-- machine translation for human verification -->
+    <string key="frequently-asked-questions">Preguntas Frecuentes</string>
+    <!-- By default, we collect some basic statistics about how this game is played. This can be configured in the --> <!-- machine translation for human verification -->
+    <string key="title-screen-stats-collected">De forma predeterminada, recopilamos algunas estadísticas básicas sobre cómo se juega a este juego. Esto se puede configurar en el</string>
+    <!-- settings menu --> <!-- machine translation for human verification -->
+    <string key="title-screen-settings-menu">menú de Configuración</string>
+    <!-- By clicking the button below, you are confirming that you are an adult and such material is legal in your region. --> <!-- machine translation for human verification -->
+    <string key="title-screen-confirm-legal">Al pulsar el botón de abajo, confirmas que eres mayor de edad y que este tipo de contenido es legal en tu región.</string>
+
+
+    <!-- PLAYER CHARACTER SCREEN -->
+    <!-- Who are you? --> <!-- machine translation for human verification -->
+    <string key="who-are-you">¿Cómo te llamas?</string>
+    <!-- What are you wearing? --> <!-- machine translation for human verification -->
+    <string key="what-are-you-wearing">¿Qué llevas puesto?</string>
+	<!-- Select 0 to 8 articles. Wear whatever you want. --> <!-- machine translation for human verification -->
+    <string key="select-your-clothing">Selecciona entre 0 y 8 prendas. Ponte lo que quieras.</string>
+    <!-- You cannot wear more than 8 articles of clothing. Cheater. --> <!-- machine translation for human verification -->
+    <string key="select-your-clothing-cheater">No puedes llevar más de 8 prendas. ¡Tramposo!</string>
+
+
+    <!-- CHARACTER SELECTION SCREEN -->
+    <!-- Select Suggested --> <!-- machine translation for human verification -->
+    <string key="select-suggested">Seleccionar Sugerido</string>
+    <!-- Select Other Opponent --> <!-- machine translation for human verification -->
+    <string key="select-other-opponent">Elegir Otro Oponente</string>
+    <!-- Remove Opponent --> <!-- machine translation for human verification -->
+    <string key="remove-opponent">Quitar Oponente</string>
+
+    <!-- Back --> <!-- machine translation for human verification -->
+    <string key="back-button">Atrás</string>
+    <!-- Main Roster --> <!-- August 2026 verification by Máximo Cozzetti -->
+    <string key="select-group-main-button">Personajes Principales</string>
+    <!-- Testing Roster --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="select-group-testing-button">Personajes a Prueba</string>
+    <!-- Preset Tables --> <!-- machine translation for human verification -->
+    <string key="select-group-button">Mesas Predefinidas</string>
+    <!-- Help & FAQ --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="help-button">Ayuda y Preguntas Frecuentes</string>
+    <!-- Start --> <!-- machine translation for human verification -->
+    <string key="start-button">Jugar</string>
+    <!-- Random Females --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="select-random-female-button">Mujeres Aleatorias</string>
+    <!-- Random Males --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="select-random-male-button">Hombres Aleatorios</string>
+    <!-- Random Table --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="select-random-group-button">Mesa Aleatoria</string>
+    <!-- Random Fill --> <!-- August 2026 translation by Máximo Cozzetti - missing nuance of "fill"? -->
+    <string key="select-random-button">Aleatorio</string>
+
+
+    <!-- ROSTER SCREEN -->
+    <!-- All --> <!-- machine translation for human verification -->
+    <string key="all">Todos</string>
+    <!-- Male --> <!-- machine translation for human verification -->
+    <string key="gender-male">Masculino</string>
+    <!-- Female --> <!-- machine translation for human verification -->
+    <string key="gender-female">Femenino</string>
+    <!-- Featured --> <!-- machine translation for human verification -->
+    <string key="featured">Destacados</string>
+    <!-- Community Ranked --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="communityRank">Recomendados por la Comunidad</string>
+    <!-- Recently Updated --> <!-- machine translation for human verification -->
+    <string key="lastUpdated">Actualizados Recientemente</string>
+    <!-- Newest --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="newest">Más Nuevos</string>
+    <!-- Oldest --> <!-- machine translation for human verification -->
+    <string key="oldest">Más Antiguos</string>
+    <!-- Most Layers --> <!-- machine translation for human verification -->
+    <string key="most-layers">Más Prendas</string>
+    <!-- Fewest Layers --> <!-- machine translation for human verification -->
+    <string key="fewest-layers">Menos Prendas</string>
+    <!-- Unique Line Count --> <!-- machine translation for human verification -->
+    <string key="uniqueLineCount">Cantidad de líneas únicas</string>
+    <!-- Name (A-Z) --> <!-- machine translation for human verification -->
+    <string key="name-a-z">Nombre (A-Z)</string>
+    <!-- Name (Z-A) --> <!-- machine translation for human verification -->
+    <string key="name-z-a">Nombre (Z-A)</string>
+    <!-- Source (A-Z) --> <!-- machine translation for human verification -->
+    <string key="source-a-z">Origen (A-Z)</string>
+    <!-- Source (Z-A) --> <!-- machine translation for human verification -->
+    <string key="source-z-a">Origen (Z-A)</string>
+    <!-- Talked to by selected --> <!-- August 2026 translation by Máximo Cozzetti - missing nuance of "to by"? -->
+    <string key="talked-to-by-selected">Charla con Seleccionados</string>
+
+    <!-- Search Creator: --> <!-- machine translation for human verification -->
+    <string key="search-creator">Buscar Creador:</string>
+    <!-- Search by Creator --> <!-- machine translation for human verification -->
+    <string key="search-by-creator">Buscar por Creador</string>
+    <!-- Search Source: --> <!-- machine translation for human verification -->
+    <string key="search-source">Buscar Origen:</string>
+    <!-- Search by Source --> <!-- machine translation for human verification -->
+    <string key="search-by-source">Buscar por Origen</string>
+    <!-- Search Name: --> <!-- machine translation for human verification -->
+    <string key="search-name">Buscar Nombre:</string>
+    <!-- Name --> <!-- machine translation for human verification -->
+    <string key="search-by-name">Nombre</string>
+    <!-- Search Tag: --> <!-- machine translation for human verification -->
+    <string key="search-tag">Buscar Etiqueta:</string>
+    <!-- Search by Tag --> <!-- machine translation for human verification -->
+    <string key="search-by-tag">Buscar por Etiqueta</string>
+
+    <!-- Character Tags --> <!-- machine translation for human verification -->
+    <string key="show-tags-button">Etiquetas del personaje</string>
+    <!-- Writer(s) --> <!-- machine translation for human verification -->
+    <string key="writers">Guionista(s)</string>
+    <!-- Artist(s) --> <!-- machine translation for human verification -->
+    <string key="artists">Artista(s)</string>
+    <!-- Unique Lines --> <!-- machine translation for human verification -->
+    <string key="unique-lines">Líneas únicas</string>
+    <!-- Poses --> <!-- machine translation for human verification -->
+    <string key="poses">Poses</string>
+    <!-- Last update --> <!-- machine translation for human verification -->
+    <string key="last-update">Última actualización</string>
+    <!-- Added --> <!-- machine translation for human verification -->
+    <string key="date-added">Añadido</string>
+    <!-- Birthday --> <!-- machine translation for human verification -->
+    <string key="birthday">Cumpleaños</string>
+
+
+    <!-- MENU OPTIONS -->
+    <!-- Character Feedback --> <!-- machine translation for human verification -->
+    <string key="game-feedback-button">Comentarios sobre personajes</string>
+    <!-- Dialogue Log --> <!-- machine translation for human verification -->
+    <string key="game-log-button">Registro de diálogo</string>
+    <!-- Return to Title --> <!-- machine translation for human verification -->
+    <string key="game-home-button">Volver al título</string>
+    <!-- Refresh Game Visuals --> <!-- machine translation for human verification -->
+    <string key="hard-refresh-button">Recargar gráficos</string>
+    <!-- Options --> <!-- machine translation for human verification -->
+    <string key="options">Opciones</string>
+    <!-- Toggle full screen mode --> <!-- machine translation for human verification -->
+    <string key="game-fullscreen-button">Pantalla completa</string>
+
+
+    <!-- FEEDBACK AND BUG REPORT SCREENS -->
+    <!-- Submit an Issue Report --> <!-- machine translation for human verification -->
+    <string key="bug-report-window-title">Enviar informe de problema</string>
+    <!-- Issue Type --> <!-- machine translation for human verification -->
+    <string key="bug-report-type">Tipo de problema</string>
+    <!-- Issue Description (required): --> <!-- machine translation for human verification -->
+    <string key="bug-report-description">Descripción del problema (obligatoria):</string>
+    <!-- Issue Report Data --> <!-- machine translation for human verification -->
+    <string key="bug-report-data">Datos del informe de problema</string>
+    <!-- Please, don't include the report data in the description! --> <!-- machine translation for human verification -->
+    <string key="bug-report-dont-include-data">¡No incluyas los datos del informe en la descripción!</string>
+    <!-- To submit a bug report, just hit 'Send', below. --> <!-- machine translation for human verification -->
+    <string key="bug-report-click-send">Para enviar un informe de error, haz clic en «Enviar» abajo.</string>
+    <!-- To submit an issue report manually: --> <!-- machine translation for human verification -->
+    <string key="bug-report-manually">Para enviar un informe de problema manualmente:</string>
+    <!-- Copy the Issue Report Data above into a text-sharing service such as Pastebin or Gist. --> <!-- machine translation for human verification -->
+    <string key="bug-report-manually-step-1">Copia los datos del informe de problema anteriores en un servicio para compartir texto, como Pastebin o Gist.</string>
+    <!-- Submit your issue report (with the Data above!) to the developers on our subreddit, /r/spnati or through our Discord server. --> <!-- machine translation for human verification -->
+    <string key="bug-report-manually-step-2">Envía tu informe de problema, ¡incluyendo los datos anteriores!, a los desarrolladores en nuestro subreddit, /r/spnati, o a través de nuestro servidor de Discord.</string>
+    <!-- Keep in mind that bug reports sent to us are publicly viewable! --> <!-- machine translation for human verification -->
+    <string key="bug-report-publicly-viewable">Ten en cuenta que los informes de errores que nos envíes serán visibles públicamente.</string>
+    <!-- Send --> <!-- machine translation for human verification -->
+    <string key="send-button">Enviar</string>
+    <!-- Close --> <!-- machine translation for human verification -->
+    <string key="close-button">Cerrar</string>
+
+    <!-- Feedback --> <!-- machine translation for human verification -->
+    <string key="feedback-envelope">Comentarios</string>
+    <!-- Submit Character Feedback --> <!-- machine translation for human verification -->
+    <string key="feedback-window-title">Opiniones sobre personajes</string>
+    <!-- Voice your thoughts on a character here. --> <!-- machine translation for human verification -->
+    <string key="feedback-voice-your-thoughts">Comparte aquí tu opinión sobre un personaje.</string>
+    <!-- Please remember that behind every character, there are human creators hard at work. Be nice!  --> <!-- machine translation for human verification -->
+    <string key="feedback-be-nice">Recuerda que detrás de cada personaje hay personas trabajando con dedicación. ¡Sé amable!</string>
+    <!-- Also, if you would like to report a specific problem with a character, please send a bug report instead.  --> <!-- machine translation for human verification -->
+    <string key="feedback-or-bug-report">Además, si quieres reportar un problema específico con un personaje, envía un reporte de error.</string>
+    <!-- Feedback For: --> <!-- machine translation for human verification -->
+    <string key="feedback-for">Comentarios para:</string>
+    <!-- Message from this character's creator(s): --> <!-- machine translation for human verification -->
+    <string key="feedback-message-from-creator">Mensaje de su(s) creador(es):</string>
+    <!-- Feedback (required): --> <!-- machine translation for human verification -->
+    <string key="feedback-required">Comentarios (obligatorio):</string>
+    <!-- To submit your feedback, just hit 'Send', below. --> <!-- machine translation for human verification -->
+    <string key="feedback-click-send">Para enviar tus comentarios, pulsa «Enviar» abajo.</string>
+
+
+    <!-- POP-UP MESSAGES -->
+    <!-- Select an article of clothing to remove --> <!-- machine translation for human verification -->
+    <string key="select-clothing-to-remove">Selecciona una prenda para quitarla</string>
+    <!-- Select --> <!-- machine translation for human verification -->
+    <string key="select-button">Seleccionar</string>
+
+
+    <!-- GAME OVER -->
+    <!-- The game is now over... --> <!-- machine translation for human verification -->
+    <string key="game-is-over">La partida ha finalizado...</string>
+    <!-- Choose --> <!-- machine translation for human verification -->
+    <string key="choose-button">Seleccionar</string>
+    <!-- Feedback? --> <!-- machine translation for human verification -->
+    <string key="feedback-question-mark">¿Comentarios?</string>
+    <!-- Restart? --> <!-- machine translation for human verification -->
+    <string key="restart-question-mark">¿Reiniciar?</string>
+    <!-- Are you sure you want to return to the title screen? --> <!-- machine translation for human verification -->
+    <string key="return-to-title-confirmation">¿Seguro que quieres volver a la pantalla de título?</string>
+    <!-- Yes --> <!-- machine translation for human verification -->
+    <string key="yes-button">Sí</string>
+    <!-- No --> <!-- machine translation for human verification -->
+    <string key="no-button">No</string>
+
+
+    <!-- EPILOGUES & COLLECTIBLES SCREENS -->
+    <!-- Collectibles --> <!-- machine translation for human verification -->
+    <string key="collectibles-button">Coleccionables</string>
+    <!-- Filter by Character... --> <!-- machine translation for human verification -->
+    <string key="filter-by-character">Filtrar por personaje...</string>
+    <!-- (no filter) --> <!-- machine translation for human verification -->
+    <string key="no-filter">(sin filtro)</string>
+    <!-- (only locked) --> <!-- machine translation for human verification -->
+    <string key="only-locked">(solo bloqueados)</string>
+    <!-- (only-unlocked) --> <!-- machine translation for human verification -->
+    <string key="only-unlocked">(solo desbloqueados)</string>
+    <!-- The Inventory --> <!-- machine translation for human verification -->
+    <string key="the-inventory-filter">El Inventario</string>
+    <!-- From: --> <!-- machine translation for human verification -->
+    <string key="collectible-from">De:</string>
+    <!-- To Unlock: --> <!-- machine translation for human verification -->
+    <string key="unlock-hint">Cómo desbloquear:</string>
+    <!-- Description: --> <!-- machine translation for human verification -->
+    <string key="collectible-description">Descripción:</string>
+
+    <!-- Card Decks --> <!-- machine translation for human verification -->
+    <string key="card-decks-button">Barajas</string>
+    <!-- Enable All Cards --> <!-- machine translation for human verification -->
+    <string key="card-deck-enable-all-cards">Activar todas las cartas</string>
+    <!-- Disable All Cards --> <!-- machine translation for human verification -->
+    <string key="card-deck-disable-all-cards">Desactivar todas las cartas</string>
+    <!-- (You haven't unlocked this deck yet.) --> <!-- machine translation for human verification -->
+    <string key="card-deck-not-unlocked">(Aún no has desbloqueado esta baraja.)</string>
+
+    <!-- Epilogues --> <!-- machine translation for human verification -->
+    <string key="epilogues-button">Epílogos</string>
+    <!-- Prev --> <!-- machine translation for human verification -->
+    <string key="epilogue-previous">Ant.</string>
+    <!-- Next --> <!-- machine translation for human verification -->
+    <string key="epilogue-next">Sig.</string>
+    <!-- Character: --> <!-- machine translation for human verification -->
+    <string key="epilogue-character">Personaje:</string>
+    <!-- For: --> <!-- machine translation for human verification -->
+    <string key="epilogue-for-gender">Para:</string>
+
+
+    <!-- DISCORD LINKS -->
+    <!-- Discord --> <!-- machine translation for human verification -->
+    <string key="discord">Discord</string>
+    <!-- Join the official SPNatI servers to talk about your favorite characters, or to help create your own! --> <!-- machine translation for human verification -->
+    <string key="discord-summary">¡Únete a los servidores oficiales de SPNatI para hablar sobre tus personajes favoritos o ayudar a crear los tuyos propios!</string>
+    <!-- By joining these servers, you are confirming that you are over the age of 18. --> <!-- machine translation for human verification -->
+    <string key="discord-eighteen-plus">Al unirte a estos servidores, confirmas que tienes al menos 18 años.</string>
+    <!-- The Community Server is the place to go for chit-chat and general discussion about the game. If you just want to hang out and talk about the game and see work-in-progress content, join this server! --> <!-- machine translation for human verification -->
+    <string key="discord-community-server">El servidor de la comunidad es el lugar ideal para charlar y hablar sobre el juego en general. Si solo quieres pasar el rato, hablar del juego y ver contenido en desarrollo, ¡únete a este servidor!</string>
+    <!-- The official Development Server is where characters each have their own channels for feedback, bug reports, and other technical discussion. If you want to make a character or see how they get made, you'll want to join this server. --> <!-- machine translation for human verification -->
+    <string key="discord-development-server">El servidor de desarrollo oficial es donde cada personaje tiene su propio canal para recibir comentarios, reportar errores y discutir otros temas técnicos. Si quieres crear un personaje o ver cómo se crean, ¡este es el servidor al que debes unirte!</string>
+
+
+    <!-- SETTINGS -->
+    <!-- Settings --> <!-- machine translation for human verification -->
+    <string key="settings">Configuración</string>
+    <!-- Game Settings --> <!-- machine translation for human verification -->
+    <string key="game-settings">Configuración del juego</string>
+    <!-- UI Language --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-user-language">Lenguaje de Interfaz</string>
+    <!-- Game dialogue won't be translated and machine translation will be required. --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-user-language-disclaimer">Esto solo afectará la interfaz. El diálogo del juego no será traducido y se requerirá traducción automática.</string>
+    <!-- Game Length --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-game-length">Duración del Juego</string>
+    <!-- How long should the game last? Until all players but one lose or until just the first person loses? --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-game-length-description">¿Qué tanto debería durar el juego? ¿Hasta que todos los jugadores menos uno pierdan o sólo hasta que el primero pierda?</string>
+    <!-- One Winner --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-game-length-one-winner">Un Ganador</string>
+    <!-- One Loser --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-game-length-one-loser">Un Perdedor (Experimental)</string>
+    <!-- Auto Table Fade --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-auto-table-fade">Ocultar Mesa Automáticamente</string>
+    <!-- Enabled --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="setting-enabled">Activado</string>
+    <!-- Disabled --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="setting-disabled">Desactivado</string>
+    <!-- Card Suggest --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-card-suggest">Sugerencia de Cartas</string>
+    <!-- Explain all Hands after Reveal --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-explain-all-hands">Explicar las Manos al revelar</string>
+    <!-- AI Turn Time --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-ai-turn-time">Turno de la IA</string>
+    <!-- Very Fast --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-speed-very-fast">Muy Rápido</string>
+    <!-- Fast --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-speed-fast">Rápido</string>
+    <!-- Normal --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-speed-normal">Regular</string>
+    <!-- Slow --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-speed-slow">Lento</string>
+    <!-- Very Slow --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-speed-very-slow">Muy Lento</string>
+    <!-- Deal Animation --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-deal-animation">Animación de Repartición</string>
+    <!-- Minimal UI --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-minimal-ui">Interfaz Mínima</string>
+    <!-- UI Text Weight --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-ui-text-weight">Grosor del Texto de Interfaz</string>
+    <!-- UI Text Width --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-ui-text-width">Ancho del Texto de Interfaz</string>
+    <!-- UI Theme --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-ui-theme">Tema de Interfaz</string>
+    <!-- Light Mode --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-ui-light-mode">Modo Claro</string>
+    <!-- Dark Mode --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-ui-dark-mode">Modo Oscuro</string>
+    <!-- Visual Finishing Effect --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-visual-finishing-effect">Efecto Visual de Acabar</string>
+    <!-- How long do you... last? --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-masturbation-timer">¿Cuánto tiempo... duras?</string>
+    <!-- Phases --> <!-- August 2026 translation by Máximo Cozzetti -->
+    <string key="settings-masturbation-phases">Fases</string>
+
+    <!-- Character Settings --> <!-- machine translation for human verification -->
+    <string key="roster-settings">Configuración de personajes</string>
+    <!-- Costumes --> <!-- machine translation for human verification -->
+    <string key="settings-costumes">Atuendos</string>
+    <!-- Randomize costumes on selection screen --> <!-- machine translation for human verification -->
+    <string key="settings-costumes-randomize">Seleccionar atuendos al azar en la pantalla de selección</string>
+    <!-- When an event isn't active, randomly select an available costume for each character. --> <!-- machine translation for human verification -->
+    <string key="settings-costumes-description">Cuando no haya ningún evento activo, se seleccionará al azar un atuendo disponible para cada personaje.</string>
+    <!-- No events --> <!-- machine translation for human verification -->
+    <string key="settings-costumes-no-events">Sin eventos</string>
+    <!-- Extra Characters --> <!-- machine translation for human verification -->
+    <string key="settings-extra-characters">Personajes adicionales</string>
+    <!-- Legacy Characters --> <!-- machine translation for human verification -->
+    <string key="settings-legacy-characters">Personajes antiguos</string>
+    <!-- These characters no longer meet the standards of the main game, but are still fully playable. --> <!-- machine translation for human verification -->
+    <string key="settings-legacy-description">Estos personajes ya no cumplen con los estándares del juego principal, pero siguen siendo totalmente jugables.</string>
+    <!-- Show --> <!-- machine translation for human verification -->
+    <string key="settings-show">Mostrar</string>
+    <!-- Hide --> <!-- machine translation for human verification -->
+    <string key="settings-hide">Ocultar</string>
+    <!-- Incomplete Characters --> <!-- machine translation for human verification -->
+    <string key="settings-incomplete-characters">Personajes incompletos</string>
+    <!-- These characters never completed the process to be added to the main game, so they may be of lower quality. On spnati.net, these are restricted to the Testing Roster. --> <!-- machine translation for human verification -->
+    <string key="settings-incomplete-characters-description">Estos personajes no completaron el proceso de incorporación al juego principal, por lo que su calidad puede ser inferior. En spnati.net, solo están disponibles en la lista de personajes en pruebas.</string>
+    <!-- April Fool's Day Characters --> <!-- machine translation for human verification -->
+    <string key="settings-april-fools-characters">Personajes del Día de las Bromas de Abril</string>
+    <!-- These are joke characters only available in the main game during the week of April Fool's Day. --> <!-- machine translation for human verification -->
+    <string key="settings-april-fools-characters-description">Estos personajes son de broma y solo están disponibles en el juego principal durante la semana dedicada al Día de las Bromas de Abril.</string>
+    <!-- Duplicate Characters --> <!-- machine translation for human verification -->
+    <string key="settings-duplicate-characters">Personajes duplicados</string>
+    <!-- These are usually older versions of characters that have been replaced. --> <!-- machine translation for human verification -->
+    <string key="settings-duplicate-characters-description">Generalmente, son versiones antiguas de personajes que han sido reemplazadas por otras más recientes.</string>
+    <!-- Broken Characters --> <!-- machine translation for human verification -->
+    <string key="settings-broken-characters">Personajes con errores</string>
+    <!-- These characters have large amounts of placeholder images or dialogue. --> <!-- machine translation for human verification -->
+    <string key="settings-broken-characters-description">Estos personajes contienen una gran cantidad de imágenes o diálogos provisionales.</string>
+
+    <!-- Privacy Settings --> <!-- machine translation for human verification -->
+    <string key="privacy-settings">Configuración de privacidad</string>
+    <!-- Basic Game Statistics --> <!-- machine translation for human verification -->
+    <string key="settings-basic-game-stats">Estadísticas básicas del juego</string>
+    <!-- Send basic information about the characters you play against, how each game ends, UI settings, and selected backgrounds. --> <!-- machine translation for human verification -->
+    <string key="settings-basic-game-stats-1">Enviar información básica sobre los personajes contra los que juegas, cómo termina cada partida, la configuración de la interfaz y los fondos seleccionados.</string>
+    <!-- We use this information to identify popular characters and backgrounds, and to tweak character difficulty. --> <!-- machine translation for human verification -->
+    <string key="settings-basic-game-stats-2">Usamos esta información para identificar los personajes y fondos más populares y ajustar la dificultad de los personajes.</string>
+    <!-- Disabling this will disable all data collection. --> <!-- machine translation for human verification -->
+    <string key="settings-basic-game-stats-3">Al desactivar esta opción, se desactivará toda la recopilación de datos.</string>
+    <!-- Unlocked Item Reporting --> <!-- machine translation for human verification -->
+    <string key="settings-unlocked-item-reporting">Registro de desbloqueos</string>
+    <!-- Send information indicating what collectibles and epilogues you've unlocked, plus a randomly-generated ID connecting together the games you play during this session. --> <!-- machine translation for human verification -->
+    <string key="settings-unlocked-item-reporting-1">Enviar información sobre los objetos coleccionables y epílogos que has desbloqueado, junto con un identificador generado al azar que permite relacionar las partidas que juegas durante esta sesión.</string>
+    <!-- We use this information to analyze how players approach the game and what they look for when playing. --> <!-- machine translation for human verification -->
+    <string key="settings-unlocked-item-reporting-2">Usamos esta información para analizar cómo juegan los jugadores y qué buscan al jugar.</string>
+    <!-- Anonymous Demographics Reporting --> <!-- machine translation for human verification -->
+    <string key="settings-anonymous-demographics">Datos demográficos anónimos</string>
+    <!-- Send information about the player tags you apply (including selected gender and size) and the clothing you choose to wear in-game. --> <!-- machine translation for human verification -->
+    <string key="settings-anonymous-demographics-1">Enviar información sobre las etiquetas de jugador que utilizas (incluidos el género y el tamaño seleccionados) y la ropa que eliges llevar en el juego.</string>
+    <!-- This does not include any information that directly identifies you or your location. --> <!-- machine translation for human verification -->
+    <string key="settings-anonymous-demographics-2">Esta información no incluye ningún dato que permita identificarte directamente ni revelar tu ubicación.</string>
+    <!-- We use this information to generally analyze what audiences play this game, as well as what characters are popular with particular audiences. --> <!-- machine translation for human verification -->
+    <string key="settings-anonymous-demographics-3">Usamos esta información para analizar de forma general qué tipos de público juegan a este juego y qué personajes son populares entre los distintos grupos de jugadores.</string>
+
+
+    <!-- IMPORT CODE -->
+    <!-- Save or Restore Your Progress --> <!-- machine translation for human verification -->
+    <string key="import-window-title">Guardar o restaurar tu progreso</string>
+    <!-- When playing in Incognito Mode, your progress will not be preserved upon closing the browser. --> <!-- machine translation for human verification -->
+    <string key="import-incognito-caution">Si juegas en modo incógnito, tu progreso no se conservará al cerrar el navegador.</string>
+    <!-- Copy the code below to store off your progress for a later session. --> <!-- machine translation for human verification -->
+    <string key="import-copy-instruction">Copia el código que aparece a continuación para guardar tu progreso y recuperarlo en otra sesión.</string>
+    <!-- Paste a code into the box and click Import to restore your progress. --> <!-- machine translation for human verification -->
+    <string key="import-paste-instruction">Pega un código en el cuadro y haz clic en Importar para restaurar tu progreso.</string>
+    <!-- That code appears to be damaged or invalid. --> <!-- machine translation for human verification -->
+    <string key="import-invalid-code">El código parece estar dañado o no ser válido.</string>
+    <!-- Import --> <!-- machine translation for human verification -->
+    <string key="import-button">Importar</string>
+
+
+    <!-- VERSION HISTORY -->
+    <!-- Version Details --> <!-- machine translation for human verification -->
+    <string key="version-details">Detalles de la versión</string>
+
+
+    <!-- EVENT CALENDAR -->
+    <!-- Events in --> <!-- machine translation for human verification -->
+    <string key="events-calendar-title">Eventos de</string>
+    <!-- During an event, the default background changes, and some characters receive unique costumes and dialogue relating to the special occasion. An 'Extension' of an event means that the content of the event is still available, but is no longer highlighted. --> <!-- machine translation for human verification -->
+    <string key="event-summary">Durante un evento, el fondo predeterminado cambia y algunos personajes reciben atuendos y diálogos exclusivos relacionados con la ocasión especial. Una «Extension» de un evento significa que su contenido sigue estando disponible, pero ya no se destaca.</string>
+
+
+    <!-- GAMEPLAY BUTTONS -->
+    <!-- Deal --> <!-- machine translation for human verification -->
+    <string key="deal-button">Repartir</string>
+    <!-- Wait --> <!-- machine translation for human verification -->
+    <string key="wait-button">Espera</string>
+    <!-- Keep all --> <!-- machine translation for human verification -->
+    <string key="keep-all-button">No cambiar</string>
+    <!-- Swap --> <!-- machine translation for human verification -->
+    <string key="swap-button">Cambiar</string>
+    <!-- Reveal --> <!-- machine translation for human verification -->
+    <string key="reveal-button">Revelar</string>
+    <!-- Continue --> <!-- machine translation for human verification -->
+    <string key="continue-button">Continuar</string>
+    <!-- Strip --> <!-- machine translation for human verification -->
+    <string key="strip-button">Desnudarse</string>
+    <!-- Masturbate --> <!-- machine translation for human verification -->
+    <string key="masturbate-button">Tocarse</string>
+    <!-- Next --> <!-- machine translation for human verification -->
+    <string key="next-button">Siguiente</string>
+    <!-- Keep going --> <!-- machine translation for human verification -->
+    <string key="keep-going-button">Seguir</string>
+    <!-- Cum! --> <!-- machine translation for human verification -->
+    <string key="cum-button">¡Orgasmo!</string>
+    <!-- Cumming... --> <!-- machine translation for human verification -->
+    <string key="cumming-button">Orgasmo...</string>    
+    <!-- Return --> <!-- machine translation for human verification -->
+    <string key="return-button">Volver</string>
+
+</strings>
