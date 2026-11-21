@@ -42,6 +42,9 @@ jobs:
           echo 'Extracted files:'
           find site -type f | wc -l
 
+      - name: Generate gallery extras (all poses + wardrobe layers)
+        run: python3 build-tools/gen_gallery_extra.py site
+
       - name: Slim down (images stream from spnati.net; editor-only data dropped)
         run: |
           cd site
