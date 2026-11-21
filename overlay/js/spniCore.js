@@ -403,7 +403,7 @@ function initialSetup () {
 function loadVersionInfo () {
     $('.substitute-version').text('Unknown Version');
 
-    beginStartupStage("Version Info");
+    beginStartupStage("版本信息");
     
     return fetchXML("version-info.xml").then(function($xml) {
         versionInfo = $xml;
@@ -452,7 +452,7 @@ function loadVersionInfo () {
 
 
 function loadConfigFile () {
-    beginStartupStage("Configuration");
+    beginStartupStage("配置");
 
     return fetchXML("config.xml").then(function($xml) {
         var _epilogues = $xml.children('epilogues').text();

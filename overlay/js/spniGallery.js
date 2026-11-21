@@ -519,7 +519,7 @@ function loadGeneralCollectibles () {
 function loadAllCollectibles() {
     console.log("Loading all collectibles");
     return loadGeneralCollectibles().then(function () {
-        beginStartupStage("Collectibles");
+        beginStartupStage("收藏品");
 
         var nLoaded = 0;
         return Promise.all(loadedOpponents.map(function (opp) {
