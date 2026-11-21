@@ -25,24 +25,21 @@ jobs:
         run: |
           mkdir -p /tmp/bundles site
           cd /tmp/bundles
-          curl -sL "https://spnati.net/bundles/dl/manifest.json" -o manifest.json
-          python3 -c "
-          import json
-          for m in json.load(open('manifest.json')):
-              print(m['name'])
-          " > names.txt
+          curl -sL 'https://spnati.net/bundles/dl/manifest.json' -o manifest.json
+          python3 -c "import json; [print(m['name']) for m in json.load(open('manifest.json'))]" > names.txt
           cat names.txt
           while read -r name; do
-            echo \"Downloading $name\"
-            curl -L --retry 3 -o \"$name\" \"https://spnati.net/bundles/dl/$name\"
+            echo "Downloading $name"
+            curl -L --retry 3 -o "$name" "https://spnati.net/bundles/dl/$name"
           done < names.txt
+          ls -lh
 
       - name: Extract and merge all bundles
         run: |
           for z in /tmp/bundles/*.zip; do
-            unzip -o -q \"$z\" -d site
+            unzip -o -q "$z" -d site
           done
-          echo \"Extracted files:\"
+          echo 'Extracted files:'
           find site -type f | wc -l
 
       - name: Slim down (images stream from spnati.net; editor-only data dropped)
